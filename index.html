@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>
+		TRIVIA GAME
+	</title>
+		
+	<!--JQuery Link-->	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<!--Digital Font Link-->
+  	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
+</head>
+
+
+
+<body>
+
+
+<div class = "container">
+
+	<!--Banner-->
+	<div class= "jumbotron" id = "header"> 80's Blast to the Past Trivia Game! </div>
+	
+	<!--Button-->
+	<div class = "row" id="start">
+		<button type="button" class="btn btn-success" id = "btnStart">Click here to Start the game Sucka!!!</button>
+	</div>
+
+
+
+	<div class = "row" id = "questions">
+		<h2 class = "time"> Time Remaining: <span id = "countDown"> </span> </h2>
+      	<button type="button" class="btn btn-warning" id = "btnDone">DONE</button>
+	</div>
+
+
+	<div class = "row" id = "results">
+		<h2> GREAT SCOTT!!! </h2>
+		<h3> Correct Answers: <span id = "correct"> </span> </h3>
+		<h3> Incorrect Answers: <span id = "incorrect"> </span> </h3>
+		<h3> Unanswered: <span id = "unAnswered"> </span> </h3>
+	</div>
+
+	<audio id="introSong">
+	  	<source src="assets/soulgloextended.mp3" type="audio/mpeg">
+	</audio>
+
+</div>
+
+
+<script src="assets/javascript/app.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</body>
+
+</html>

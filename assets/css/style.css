@@ -1,0 +1,25 @@
+.jumbotron {
+  color: #EE0707;
+  font-size: 150%;
+  font-weight: bold;
+  background-image: url("../images/n-80S-BOOM-BOX-628x314.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+body {
+    font-size: 20px;
+    font-family: orbitron, sans-serif;
+    color: #080808;
+    background-image: url("../images/cropped-ghetto-blaster-illustration-boombox-vector-graphic-42447675.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
+}
+
+.btn {
+    
+}
